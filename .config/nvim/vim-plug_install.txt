@@ -1,5 +1,5 @@
 Como instalar los plugins en nvim.
 instalamos git: sudo apt install git
-creamos la carpeta autolad dentro de ./config/nvim/
+creamos la carpeta autoload dentro de ./config/nvim/
 instalamos vim-plug: curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 dentro de .vimrc ejecutamos ":PlugInstall" para instalar los plugins añadidos en el archivo.
